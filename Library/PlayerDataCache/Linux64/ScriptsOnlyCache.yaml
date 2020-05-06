@@ -14,8 +14,6 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PhotonViewInspector
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -82,6 +80,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12010}
     - Class: 114
       Script: {instanceID: 12066}
+    - Class: 114
+      Script: {instanceID: 12220}
     - Class: 114
       Script: {instanceID: 12926}
     - Class: 114
@@ -1540,4 +1540,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Lobby.unity
   - Assets/Scenes/Game.unity
-  playerPath: /home/rimgro/Multiplayer shooter/Bulids/linux/linux.x86_64
+  playerPath: /home/rimgro/Bulids/linux/linux.x86_64
